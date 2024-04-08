@@ -1,0 +1,10 @@
+// This file is used to configure the paths for the sequelize-cli
+
+const path = require('path');
+
+module.exports = {
+  config: path.resolve('.', './src/graphql/characters/config/database/config.js'),
+  'models-path': path.resolve('./src/graphql/characters/config/database/models'),
+  'seeders-path': path.resolve('./src/graphql/characters/config/database/seeders'),
+  'migrations-path': path.resolve('./src/graphql/characters/config/database/migrations')
+};

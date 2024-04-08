@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+dist/
+coverage/
+
+# Environment files
+.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.sln
+*.suo
+*.user
+*.csproj
+*.cache
+*.dbmdl
+*.jfm
+*.gpState
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ignore compiles files 
+dist/
